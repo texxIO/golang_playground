@@ -7,8 +7,9 @@ import (
 )
 
 func main() {
-	fmt.Printf("hello, world!\n")
-	fmt.Printf("The time is %s", time.Now())
-	fmt.Print("My favorite number is:", rand.Intn(10))
+	fmt.Println("Let's start!!!")
+	fmt.Printf("The time is %s \n", time.Now())
+	fmt.Println("My favorite number is:", rand.Intn(10))
+	startConditionals()
 
 }
